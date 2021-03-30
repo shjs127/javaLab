@@ -16,6 +16,8 @@ public class StringBuilderExample {
 		}
 		
 		System.out.println(str2.toString());
+		System.out.println();
+		System.out.println(str);
 
 		
 	}
