@@ -7,7 +7,7 @@ public class StringSubStringExample {
 
 		String ssn="887631-1275432";
 		
-		String first=ssn.substring(0.8);
+		String first=ssn.substring(0,8);
 		System.out.println(first);
 		
 		String second=ssn.substring(8);
