@@ -1,4 +1,4 @@
-package verity.exam03;
+package verify.exam03;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package verity.exam06;
+package verify.exam06;
 
 public class BytesToStringExample {
 

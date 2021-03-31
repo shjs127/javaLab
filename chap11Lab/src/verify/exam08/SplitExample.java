@@ -1,4 +1,4 @@
-package verity.exam08;
+package verify.exam08;
 
 import java.util.StringTokenizer;
 

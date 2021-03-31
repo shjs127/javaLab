@@ -1,4 +1,4 @@
-package verity.exam03;
+package verify.exam03;
 
 import sec03.exam02_hashcode.Key;
 

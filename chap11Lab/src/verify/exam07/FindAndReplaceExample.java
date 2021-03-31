@@ -1,4 +1,4 @@
-package verity.exam07;
+package verify.exam07;
 
 public class FindAndReplaceExample {
 

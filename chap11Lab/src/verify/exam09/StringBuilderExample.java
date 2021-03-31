@@ -1,4 +1,4 @@
-package verity.exam09;
+package verify.exam09;
 
 public class StringBuilderExample {
 	public static void main(String[] args) {
