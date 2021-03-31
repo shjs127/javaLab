@@ -1,3 +1,4 @@
+
 package sec06.exam03_newinstance;
 
 public class NewInstanceExample {

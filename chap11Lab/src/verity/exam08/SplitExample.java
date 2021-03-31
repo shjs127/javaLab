@@ -19,6 +19,7 @@ public class SplitExample {
 		for (int i=0;i<count;i++) {
 			String token=st.nextToken();
 			System.out.println(token);
+			System.out.println();
 		}
 	}
 
