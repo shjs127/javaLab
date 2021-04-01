@@ -9,7 +9,7 @@ public class SearchExample {
 		//기본타입값 검색
 		int[] scores= {99,97,98};
 		Arrays.sort(scores);
-		int index=Arrays.binarySearch(scores, 99);
+		int index=Arrays.binarySearch(scores, 97);
 		System.out.println("찾는 인덱스:"+index);
 		
 		//문자열 검색

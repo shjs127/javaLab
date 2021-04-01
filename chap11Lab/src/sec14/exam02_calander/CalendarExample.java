@@ -14,7 +14,6 @@ public class CalendarExample {
 		int month=now.get(Calendar.MONDAY)+1;
 		int day=now.get(Calendar.DAY_OF_MONTH);
 		int week=now.get(Calendar.DAY_OF_WEEK);
-		System.out.println(month);
 		
 		String strWeek=null;
 		switch(week) {
