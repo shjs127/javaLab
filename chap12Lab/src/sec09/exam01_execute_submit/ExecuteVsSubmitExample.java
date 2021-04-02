@@ -6,9 +6,11 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 public class ExecuteVsSubmitExample {
 	public static void main(String[] args) throws Exception {
+		//胶饭靛钱 积己
 		ExecutorService executorService = Executors.newFixedThreadPool(2);
 
 		for (int i = 0; i < 10; i++) {
+			//劳疙备泅按眉 task积己
 			Runnable runnable = new Runnable() {
 				@Override
 				public void run() {
@@ -21,7 +23,7 @@ public class ExecuteVsSubmitExample {
 					int value = Integer.parseInt("伙");
 				}
 			};
-
+			//累诀 贸府 夸没
 			executorService.execute(runnable);
 			// executorService.submit(runnable);
 
