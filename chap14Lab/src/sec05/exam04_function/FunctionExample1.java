@@ -27,7 +27,13 @@ public class FunctionExample1 {
 	
 	public static void main(String[] args) {
 		System.out.println("[학생 이름]");
-		printString( t -> t.getName() );
+		
+		printString(new Function<Student, String>() {
+		public String apply(Student t) {
+			return t.getName();
+		};
+		});
+	//	printString( t -> t.getName() );
 		
 		System.out.println("[영어 점수]");
 		printInt( t -> t.getEnglishScore() );

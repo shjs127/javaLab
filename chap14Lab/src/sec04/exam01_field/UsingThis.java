@@ -3,6 +3,7 @@ package sec04.exam01_field;
 public class UsingThis {
 	public int outterField = 10;
 
+	//인스턴스 멤버 클래스
 	class Inner {
 		int innerField = 20;
 
