@@ -14,26 +14,26 @@ public class LambdaExample {
 		}
 		return result;
 	}
+
 	public static void main(String[] args) {
-	//최대값 얻기
-	int max = maxOrMin((a, b)-> {
-		if (a >= b)
-			return a;
+		// 최대값 얻기
+		int max = maxOrMin((a, b) -> {
+			if (a >= b)
+				return a;
 			else
-			return b;
+				return b;
 		});
-	
-	
-	System.out.println("최대값: " + max);
-	//최소값 얻기
-	int min =maxOrMin((a, b) -> {
-		if (a <= b)
-			return a;
+
+		System.out.println("최대값: " + max);
+		// 최소값 얻기
+		int min = maxOrMin((a, b) -> {
+			if (a <= b)
+				return a;
 			else
-			return b;
-			});
-			System.out.println("최소값: " + min);
-			}
+				return b;
+		});
+		System.out.println("최소값: " + min);
+	}
 }
 // 실행 결과
 // 최대값: 50
