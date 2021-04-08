@@ -8,9 +8,10 @@ public class ArrayListExample {
 		
 		list.add("Java");
 		list.add("JDBC");
-		list.add("Servlet/JSP");
+		list.add("Servlet/JSP"); // 원래 2인덱스 였는데 Database로 인해 한칸 뒤로밀림
 		list.add(2, "Database");
 		list.add("iBATIS");
+		list.add("Java");
 
 		int size = list.size();
 		System.out.println("총 객체수: " + size);		

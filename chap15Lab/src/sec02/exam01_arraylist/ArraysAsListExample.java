@@ -5,6 +5,7 @@ import java.util.List;
 
 public class ArraysAsListExample {
 	public static void main(String[] args) {
+		// Arrays.asList 는 리스트의 크기를 고정시켜서 추가삭제가 불가
 		List<String> list1 = Arrays.asList("홍길동", "신용권", "감자바");
 		for(String name: list1) {
 			System.out.println(name);
