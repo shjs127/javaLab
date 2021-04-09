@@ -9,4 +9,5 @@ public class Board {
 		this.content = content;
 		this.writer = writer;
 	}
+	
 }
