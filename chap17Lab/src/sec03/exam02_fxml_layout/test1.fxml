@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="394.0" prefWidth="315.0">
+         <children>
+            <BorderPane layoutX="51.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0" />
+         </children></AnchorPane>
+   </children>
+</HBox>
