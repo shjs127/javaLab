@@ -16,6 +16,7 @@ public class RootController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
+		/*
 		btn1.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
@@ -24,6 +25,7 @@ public class RootController implements Initializable {
 		});
 		btn2.setOnAction(event->handleBtn2Action(event));
 		btn3.setOnAction(event->handleBtn3Action(event));
+	*/
 	}
 	
 	public void handleBtn1Action(ActionEvent event) { 

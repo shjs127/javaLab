@@ -1,6 +1,7 @@
 package sec03.exam01_programmatical_layout;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.stage.Stage;
 import javafx.scene.layout.HBox;
 import javafx.geometry.Insets;
@@ -21,7 +22,8 @@ public class AppMain extends Application {
 
 		Button button = new Button(); // Button 컨트롤 생성
 		button.setText("확인"); // Button 글자 설정
-
+		button.setOnAction(event->Platform.exit());	
+		
 		ObservableList list = hbox.getChildren(); // HBox의 ObservableList 얻기
 		list.add(textField); // TextField 컨트롤 배치
 		list.add(button); // Button의 컨트롤 배치
