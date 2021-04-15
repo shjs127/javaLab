@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<StackPane prefHeight="500" prefWidth="350" 
+	xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+	fx:controller="sec07.exam03_chatting.login.RootController">
+	<children>
+		<BorderPane>
+			<top>
+				<BorderPane style="-fx-background-color: #eaeaea;">
+					<center>
+						<Label id="welcome-text" alignment="CENTER" prefWidth="215" text="Welcome" />
+					</center>
+					<padding>
+						<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+					</padding>
+				</BorderPane>
+			</top>
+
+			<center>
+				<AnchorPane styleClass="root" xmlns:fx="http://javafx.com/fxml"
+					prefHeight="194.0" prefWidth="300.0">
+					<children>
+						<Label layoutX="42.0" layoutY="80.0" text="아이디" />
+						<Label layoutX="42.0" layoutY="118.0" text="패스워드" />
+						<TextField layoutX="120.0" layoutY="76.0" />
+						<PasswordField layoutX="120.0" layoutY="114.0" />
+						<Button fx:id="btnLogin" layoutX="97.0" layoutY="158.0" styleClass="button"
+							text="로그인" />
+						<Button layoutX="164.0" layoutY="158.0" styleClass="button"
+							text="취소" />
+					</children>
+				</AnchorPane>
+			</center>
+		</BorderPane>
+	</children>
+</StackPane>

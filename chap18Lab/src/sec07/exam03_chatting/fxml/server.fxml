@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sec07.exam03_chatting.fxml.ServerController">
+   <center>
+      <TextArea fx:id="txtDisplay" editable="false">
+         <BorderPane.margin>
+            <Insets bottom="2.0" />
+         </BorderPane.margin></TextArea>
+   </center>
+   <bottom>
+      <Button fx:id="btnStartStop" maxWidth="1.7976931348623157E308" prefHeight="30.0" text="start" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
