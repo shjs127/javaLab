@@ -8,13 +8,14 @@ public class ConsoleExample {
 		
 		System.out.print("아이디: ");
 		String id = console.readLine();
+		String strid=new String(id);
 		
 		System.out.print("패스워드: ");
 		char[] charPass = console.readPassword();
 		String strPassword = new String(charPass);
 		
 		System.out.println("---------------------");
-		System.out.println(id);
+		System.out.println(strid);
 		System.out.println(strPassword);
 	}
 }

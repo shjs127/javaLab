@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class AddLineNumberExample {
 	public static void main(String[] args) throws Exception {
-		String filePath = "d:/dev/workspace/workspace-neon/java/chap18/src/sec05/exam04_bufferedreader/BufferedReaderExample.java";
+		String filePath = "C:dev\\workspace\\git\\javaLab\\chap18Lab\\src\\sec05\\exam04_bufferedreader\\BufferedReaderExample.java";
 		
 		FileReader fr = new FileReader(filePath);
 		BufferedReader br = new BufferedReader(fr);
@@ -13,7 +13,7 @@ public class AddLineNumberExample {
 		int rowNumber = 0;
 		String rowData;
 		while( (rowData=br.readLine())!= null ) {
-			System.out.println(++rowNumber + ": " + rowData);
+			System.out.println(++rowNumber + ": " + rowData);//rowData 가 어디서들어오냐
 		}
 		
 		br.close(); fr.close();

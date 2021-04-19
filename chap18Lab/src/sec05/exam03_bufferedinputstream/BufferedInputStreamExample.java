@@ -8,14 +8,14 @@ public class BufferedInputStreamExample {
 		long start = 0;
 		long end = 0;
 		
-		FileInputStream fis1 = new FileInputStream("C:/JavaProgramming/source/chap18/src/sec05/exam03_bufferedinputstream/forest.jpg");
+		FileInputStream fis1 = new FileInputStream("C:\\dev\\workspace\\git\\javaLab\\chap18Lab\\src\\sec05\\exam03_bufferedinputstream\\forest.jpg");
 		start = System.currentTimeMillis();
 		while(fis1.read() != -1) {}
 		end = System.currentTimeMillis();
 		System.out.println("사용하지 않았을 때: " + (end-start) + "ms");
 		fis1.close();
 		
-		FileInputStream fis2 = new FileInputStream("C:/JavaProgramming/source/chap18/src/sec05/exam03_bufferedinputstream/forest.jpg");
+		FileInputStream fis2 = new FileInputStream("C:\\dev\\workspace\\git\\javaLab\\chap18Lab\\src\\sec05\\exam03_bufferedinputstream\\forest.jpg");
 		BufferedInputStream bis = new BufferedInputStream(fis2);
 		start = System.currentTimeMillis();
 		while(bis.read() != -1) {}
