@@ -15,6 +15,7 @@ public class JDBC_Connect01 {
 		/*****************************************************/
 
 		try {
+			//oracle db접속을 위한 클래스를 jvm에 로딩한다.
 			Class.forName(driver);
 			System.out.println("JDBC Driver Loading 성공~!!");
 

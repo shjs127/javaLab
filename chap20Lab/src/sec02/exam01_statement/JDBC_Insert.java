@@ -49,7 +49,7 @@ public static void main(String[] args) {
 	  }
 	}
     catch(Exception e){
-      System.out.println("데이터베이스 연결 실패!");
+      System.out.println("데이터베이스 연결 실패래요!");
     }
     finally{
       try{

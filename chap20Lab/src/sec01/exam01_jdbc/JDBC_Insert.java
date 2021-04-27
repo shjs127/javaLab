@@ -11,7 +11,7 @@ public class JDBC_Insert {
 	public static void main(String[] args) {
 
 		String driver = "oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@localhost:1521:MYORACLE";
+		String url = "jdbc:oracle:thin:@localhost:1521:XE";
 
 		Connection con = null;
 		Statement stmt = null;

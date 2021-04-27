@@ -35,7 +35,7 @@ class  JDBC_Select{
       } 
     }
     catch(Exception e){
-      System.out.println("데이터베이스 연결 실패!");
+      System.out.println("데이터베이스 연결 실패했음!");
     }
     finally{
       try{//rs, stmt, con 객체를 close() 메서드를 호출해 해제
